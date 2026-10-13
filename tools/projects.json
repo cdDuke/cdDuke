@@ -1,0 +1,74 @@
+[
+  {
+    "id": "taskflow", "repo": "taskflow-kanban", "dir": "05-taskflow", "kind": "app", "emoji": "🗂", "title": "TaskFlow", "accent": "#7c5cff",
+    "ru": "Канбан-доски в духе Linear/Trello: drag & drop мышью, пальцем и с клавиатуры (с озвучкой для скринридеров), карточка задачи с чек-листом, отмена на 40 шагов, тёмная и светлая тема без мигания.",
+    "en": "Kanban boards: drag & drop with mouse, touch and keyboard, task drawer with checklists, 40-step undo, dark/light theme.",
+    "stack": ["React 19", "TypeScript", "Zustand", "dnd-kit"]
+  },
+  {
+    "id": "kvartal", "repo": "kvartal-estate", "dir": "09-kvartal-estate", "kind": "app", "emoji": "🏙", "title": "Kvartal", "accent": "#1f5eff",
+    "ru": "Сервис поиска квартир: фильтры синхронизируются с URL, SVG-карта города с метками цен, генератор планировок, ипотечный калькулятор, сравнение до трёх объектов.",
+    "en": "Real-estate search: URL-synced filters, SVG city map with price pins, generated floor plans, mortgage calculator, compare.",
+    "stack": ["React 19", "TypeScript", "SVG", "URL state"]
+  },
+  {
+    "id": "skycast", "repo": "skycast-weather", "dir": "07-skycast-weather", "kind": "app", "emoji": "🌦", "title": "SkyCast", "accent": "#4facfe",
+    "ru": "Погода на реальном API Open-Meteo: поиск городов с автодополнением (debounce + AbortController), геолокация, почасовой график, прогноз на 7 дней, живой фон на Canvas — дождь, снег, молнии.",
+    "en": "Weather on the Open-Meteo API: city search combobox, geolocation, hourly chart, 7-day forecast, canvas rain/snow/lightning.",
+    "stack": ["React 19", "TypeScript", "REST API", "Canvas"]
+  },
+  {
+    "id": "orbit", "repo": "orbit-saas", "dir": "03-orbit-saas", "kind": "site", "emoji": "🪐", "title": "Orbit", "accent": "#8b7bff",
+    "ru": "Лендинг SaaS-платформы: 3D-глобус на Three.js с собственными GLSL-шейдерами и дугами запросов, «живая» bento-сетка, подсветка кода, тарифы. Тяжёлый 3D-модуль грузится лениво.",
+    "en": "SaaS landing: Three.js globe with custom GLSL shaders, live bento grid, syntax-highlighted code panel, pricing.",
+    "stack": ["Three.js", "GLSL", "TypeScript", "GSAP"]
+  },
+  {
+    "id": "nova", "repo": "nova-studio", "dir": "01-nova-studio", "kind": "site", "emoji": "✦", "title": "Nova Studio", "accent": "#d7ff3d",
+    "ru": "Сайт digital-агентства: кастомный курсор, магнитные кнопки, горизонтальный скролл кейсов, бегущая строка, побуквенные появления и плавный скролл.",
+    "en": "Creative agency site: custom cursor, magnetic buttons, horizontal case-study scroll, marquee, smooth scrolling.",
+    "stack": ["GSAP", "ScrollTrigger", "Lenis", "Vite"]
+  },
+  {
+    "id": "savor", "repo": "savor-restaurant", "dir": "06-savor-restaurant", "kind": "site", "emoji": "🍽", "title": "Savor", "accent": "#c9a45c",
+    "ru": "Ресторан высокой кухни: интро с DrawSVG, SplitText-анимации, меню с 3D-превью блюд (все блюда нарисованы кодом), таймлайн дегустации, бронирование столика со слотами.",
+    "en": "Fine-dining site: DrawSVG intro, SplitText, menu with 3D dish preview (dishes drawn in code), tasting timeline, table booking.",
+    "stack": ["GSAP", "SplitText", "DrawSVG", "TypeScript"]
+  },
+  {
+    "id": "voyage", "repo": "voyage-travel", "dir": "04-voyage-travel", "kind": "site", "emoji": "🧭", "title": "Voyage", "accent": "#ff6b4a",
+    "ru": "Турагентство на React: пейзажи генерируются кодом, фильтры и сортировка с анимацией раскладки, избранное, карточка тура и бронирование с валидацией.",
+    "en": "Travel agency SPA: procedural SVG landscapes, animated filters and sorting, favourites, validated booking.",
+    "stack": ["React 19", "Motion", "TypeScript", "SVG"]
+  },
+  {
+    "id": "pulse", "repo": "pulse-fitness", "dir": "08-pulse-fitness", "kind": "site", "emoji": "💓", "title": "Pulse", "accent": "#ff4d1c",
+    "ru": "Лендинг фитнес-приложения: телефон собран на CSS с живым интерфейсом, закреплённый скролл-сторителлинг, интерактивный генератор плана тренировок.",
+    "en": "Fitness app landing: pure-CSS phone with live UI, sticky scroll storytelling, training-plan generator.",
+    "stack": ["GSAP", "CSS", "TypeScript", "Lenis"]
+  },
+  {
+    "id": "luma", "repo": "luma-coffee", "dir": "02-luma-coffee", "kind": "site", "emoji": "☕", "title": "Luma Coffee", "accent": "#c8743c",
+    "ru": "Магазин specialty-кофе: фильтры по обжарке, карточки с наклоном, корзина с полётом товара, гид по завариванию с таймером, калькулятор подписки.",
+    "en": "Coffee shop: roast filters, tilt cards, fly-to-cart drawer, brew guide with timer, subscription calculator.",
+    "stack": ["GSAP", "JavaScript", "SVG", "Vite"]
+  },
+  {
+    "id": "servereye", "repo": "servereye-bot", "dir": "bots/servereye-bot", "kind": "bot", "emoji": "🛡", "title": "ServerEye", "accent": "#2ee59d",
+    "ru": "Мониторинг серверов в Telegram: проверки ping/HTTP/TCP, uptime и статистика, графики, ежечасные отчёты, тревоги при падении, агент с CPU/RAM/диском, деплой через systemd.",
+    "en": "Server monitoring in Telegram: ping/HTTP/TCP checks, uptime, charts, hourly reports, alerts, metrics agent, systemd deploy.",
+    "stack": ["Python", "aiogram 3", "SQLAlchemy", "APScheduler"]
+  },
+  {
+    "id": "advokat", "repo": "karmanny-advokat-bot", "dir": "bots/advokat-bot", "kind": "bot", "emoji": "⚖️", "title": "Карманный Адвокат", "titleEn": "Pocket Lawyer", "accent": "#e3b65c",
+    "ru": "AI-юрист для России и Казахстана: ответы по законам выбранной страны, проверка PDF/DOCX/фото через OCR, претензии в DOCX/PDF, история обращений, админ-панель с рассылкой.",
+    "en": "AI legal assistant for Russia & Kazakhstan: answers by local law, OCR document checks, claims in DOCX/PDF, admin panel.",
+    "stack": ["Python", "aiogram 3", "OpenAI API", "Tesseract"]
+  },
+  {
+    "id": "loveis", "repo": "loveis-bot", "dir": "bots/loveis-bot", "kind": "bot", "emoji": "💘", "title": "LoveIS", "accent": "#ff5c93",
+    "ru": "AI-помощник для пар: три варианта ответа на сообщение в нужном стиле, комплименты, свидания под бюджет, подарки своими руками, букеты и стихи.",
+    "en": "AI relationship helper: message replies in a chosen style, compliments, budget dates, DIY gifts, poems.",
+    "stack": ["Python", "aiogram 3", "OpenAI API", "SQLite"]
+  }
+]

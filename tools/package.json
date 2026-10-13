@@ -1,0 +1,15 @@
+{
+  "name": "cdduke-profile-assets",
+  "private": true,
+  "type": "module",
+  "description": "Generates the animated SVG assets and project cards for the GitHub profile README",
+  "scripts": {
+    "build": "node build-svg.mjs && node build-cards.mjs && node build-readme.mjs"
+  },
+  "dependencies": {
+    "@fontsource/manrope": "^5.0.0",
+    "@fontsource/unbounded": "^5.0.0",
+    "opentype.js": "^1.3.4",
+    "puppeteer-core": "^24.0.0"
+  }
+}
