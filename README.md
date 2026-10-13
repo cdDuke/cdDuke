@@ -6,7 +6,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Портфолио-cdduke.github.io-d7ff3d?style=for-the-badge&logo=githubpages&logoColor=0b0b10&labelColor=12121a)](https://cdduke.github.io)
 [![Open to work](https://img.shields.io/badge/Статус-открыт_к_работе-8b6cff?style=for-the-badge&labelColor=12121a)](#-связаться--contact)
-[![Projects](https://img.shields.io/badge/Проекты-12-7dffcf?style=for-the-badge&logo=github&logoColor=0b0b10&labelColor=12121a)](#-проекты--projects)
+[![Projects](https://img.shields.io/badge/Проекты-13-7dffcf?style=for-the-badge&logo=github&logoColor=0b0b10&labelColor=12121a)](#-проекты--projects)
 
 ![Profile views](https://hits.sh/github.com/cdDuke.svg?style=for-the-badge&label=Profile%20views&color=d7ff3d&labelColor=12121a)
 
@@ -38,7 +38,7 @@
 </tr>
 </table>
 
-<img src="assets/stats.svg" alt="12 projects · 9 live demos · 3 Telegram bots · RU/EN · responsive" width="100%">
+<img src="assets/stats.svg" alt="13 projects · 10 live demos · 3 Telegram bots · RU/EN · responsive" width="100%">
 
 <img src="assets/divider.svg" width="100%" alt="">
 
@@ -169,6 +169,16 @@ Vite, ленивая загрузка тяжёлых модулей, GitHub Acti
 <tr>
 <td valign="top" width="50%">
 
+<a href="https://cdduke.github.io/kadr-miniapp/"><img src="assets/cards/kadr.webp" alt="Kadr" width="100%"></a>
+
+### 🎬 [Кадр](https://github.com/cdDuke/kadr-miniapp)
+Telegram Mini App для покупки билетов в кино: нативные MainButton, BackButton, попапы, вибрация и CloudStorage, интерфейс сам подстраивается под тему Telegram, схема зала с VIP-диванами, QR-билет и бот на aiogram 3, который его принимает.<br>
+<sub>`Telegram Mini App` `React 19` `TypeScript` `aiogram 3`</sub><br>
+<a href="https://cdduke.github.io/kadr-miniapp/"><b>▶ Демо</b></a> · <a href="https://github.com/cdDuke/kadr-miniapp">📦 Код</a>
+
+</td>
+<td valign="top" width="50%">
+
 <a href="https://cdduke.github.io/taskflow-kanban/"><img src="assets/cards/taskflow.webp" alt="TaskFlow" width="100%"></a>
 
 ### 🗂 [TaskFlow](https://github.com/cdDuke/taskflow-kanban)
@@ -177,6 +187,8 @@ Vite, ленивая загрузка тяжёлых модулей, GitHub Acti
 <a href="https://cdduke.github.io/taskflow-kanban/"><b>▶ Демо</b></a> · <a href="https://github.com/cdDuke/taskflow-kanban">📦 Код</a>
 
 </td>
+</tr>
+<tr>
 <td valign="top" width="50%">
 
 <a href="https://cdduke.github.io/kvartal-estate/"><img src="assets/cards/kvartal.webp" alt="Kvartal" width="100%"></a>
@@ -187,11 +199,9 @@ Vite, ленивая загрузка тяжёлых модулей, GitHub Acti
 <a href="https://cdduke.github.io/kvartal-estate/"><b>▶ Демо</b></a> · <a href="https://github.com/cdDuke/kvartal-estate">📦 Код</a>
 
 </td>
-</tr>
-<tr>
-<td valign="top" width="100%" colspan="2">
+<td valign="top" width="50%">
 
-<a href="https://cdduke.github.io/skycast-weather/"><img src="assets/cards/skycast.webp" alt="SkyCast" width="62%"></a>
+<a href="https://cdduke.github.io/skycast-weather/"><img src="assets/cards/skycast.webp" alt="SkyCast" width="100%"></a>
 
 ### 🌦 [SkyCast](https://github.com/cdDuke/skycast-weather)
 Погода на реальном API Open-Meteo: поиск городов с автодополнением (debounce + AbortController), геолокация, почасовой график, прогноз на 7 дней, живой фон на Canvas — дождь, снег, молнии.<br>

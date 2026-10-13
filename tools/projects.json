@@ -1,5 +1,11 @@
 [
   {
+    "id": "kadr", "repo": "kadr-miniapp", "dir": "10-kadr-miniapp", "kind": "app", "emoji": "🎬", "title": "Кадр", "titleEn": "Kadr", "accent": "#ff4d6d",
+    "ru": "Telegram Mini App для покупки билетов в кино: нативные MainButton, BackButton, попапы, вибрация и CloudStorage, интерфейс сам подстраивается под тему Telegram, схема зала с VIP-диванами, QR-билет и бот на aiogram 3, который его принимает.",
+    "en": "Cinema-tickets Telegram Mini App: native MainButton / BackButton / popups / haptics / CloudStorage, theme-aware UI, seat map, QR tickets and an aiogram bot.",
+    "stack": ["Telegram Mini App", "React 19", "TypeScript", "aiogram 3"]
+  },
+  {
     "id": "taskflow", "repo": "taskflow-kanban", "dir": "05-taskflow", "kind": "app", "emoji": "🗂", "title": "TaskFlow", "accent": "#7c5cff",
     "ru": "Канбан-доски в духе Linear/Trello: drag & drop мышью, пальцем и с клавиатуры (с озвучкой для скринридеров), карточка задачи с чек-листом, отмена на 40 шагов, тёмная и светлая тема без мигания.",
     "en": "Kanban boards: drag & drop with mouse, touch and keyboard, task drawer with checklists, 40-step undo, dark/light theme.",
