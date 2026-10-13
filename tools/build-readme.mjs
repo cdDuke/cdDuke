@@ -55,7 +55,7 @@ const md = `<div align="center">
 [![Open to work](https://img.shields.io/badge/Статус-открыт_к_работе-8b6cff?style=for-the-badge&labelColor=12121a)](#-связаться--contact)
 [![Projects](https://img.shields.io/badge/Проекты-${projects.length}-7dffcf?style=for-the-badge&logo=github&logoColor=0b0b10&labelColor=12121a)](#-проекты--projects)
 
-![Profile views](https://komarev.com/ghpvc/?username=${USER}&label=Profile%20views&color=d7ff3d&style=for-the-badge&labelColor=12121a)
+![Profile views](https://hits.sh/github.com/${USER}.svg?style=for-the-badge&label=Profile%20views&color=d7ff3d&labelColor=12121a)
 
 </div>
 
