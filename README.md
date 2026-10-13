@@ -1,4 +1,4 @@
-<img src="banner.png" alt="Привет, я Руслан" width="100%">
+<img src="banner.png" alt="Привет, я cdDuke" width="100%">
 
 <div align="center">
 
